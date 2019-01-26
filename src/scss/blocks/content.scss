@@ -1,0 +1,64 @@
+.content{
+min-height: $content_height;
+}
+.content__main{
+  overflow: hidden;
+  img{transition: 200ms; height: 100%}
+  &:hover .content__main-img{transform: scale(1.1)}
+}
+.content__main-border{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  outline: 1px solid $border_color1;
+  outline-offset: -12px;
+}
+.content__main__text-p{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 11px;
+  color: $border-color1;
+}
+.content__main__text-h3{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: $border_color1;
+}
+.content__main-btn{
+  width: 175px;
+}
+.content__second1,
+.content__second2{
+  min-height: $content_height/2;
+}
+.content__second1{
+  background: $border_color1;
+  outline: 1px solid $text_color1;
+  outline-offset: -12px;
+}
+.content__second1-txt {
+  p{
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: $text_color1;
+  }
+  ul {
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.content__second2{
+  background: $bg_color1;
+}
+.content__second2-txt{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: $text_color2;
+}
+

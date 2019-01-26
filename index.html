@@ -6,14 +6,156 @@
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>BoxingClub</title>
+    <title>TEST</title>
 </head>
 <body>
 <header>
-
+    <div class="container">
+        <div class="row header  flex-nowrap justify-content-between pt-2">
+            <div class="col-3 header__block  pl-0 pr-2">
+                <object type="image/svg+xml" data="./src/img/logo.svg">Your browser does not support SVGs</object>
+                <button type="button" class="btn btn-danger header__block__btn1 mt-3 pl-0 d-inline-flex">
+                    <div class="position-relative header__block__btn1-line">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div><p class="text-white m-0">Каталог мебели</p></div>
+                    <div class="position-relative header__block__btn1-arw ml-auto"></div>
+                </button>
+            </div>
+            <div class="col-6 pl-1 pr-1 header__block ">
+                <nav class="navbar navbar-expand-lg pl-0 pr-0">
+                    <div class="collapse navbar-collapse" id="navbar1">
+                        <ul class="navbar-nav w-100 d-inline-flex justify-content-between">
+                            <li class="nav-item">
+                                <a class="nav-link nav-a" href="#">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link nav-a" href="#">ОПЛАТА И ДОСТАВКА</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link nav-a" href="#">СТАТЬИ</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link nav-a" href="#">О НАС</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link nav-a" href="#">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="row ml-0 mr-0 mt-2">
+                    <div class="input-group w-75">
+                        <input type="text" class="form-control border-danger header__search"
+                               aria-label="Text input with segmented dropdown button" placeholder="Я ищу...">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-danger dropdown-toggle position-relative header__search__drdw"
+                                    type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Все
+                                категории
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Диваны</a>
+                                <a class="dropdown-item" href="#">Стулья</a>
+                                <a class="dropdown-item" href="#">Кресла</a>
+                                <div role="separator" class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Мебельная утварь</a>
+                            </div>
+                            <button type="button" class="btn btn-danger">Найти</button>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-auto header__search__icons">
+                        <div class="m-auto">
+                            <i class="fa fa-retweet fa-lg header__search__text-clr" aria-hidden="true"></i>
+                            <span class="header__search__text-clr">0</span>
+                        </div>
+                        <div class="m-auto">
+                            <i class="fa fa-heart-o fa-lg header__search__text-clr" aria-hidden="true"></i>
+                            <span class="header__search__text-clr">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 header__block">
+                <div class="row header__contacts header__search__text-clr justify-content-end">
+                    <i class="fa fa-map-marker fa-lg mr-3 pt-1" aria-hidden="true"></i>
+                    <div>
+                        <p class="m-0">г. Минск, ул.Минская 146</p>
+                        <p class="m-0 float-right">Работаем без выходных</p>
+                    </div>
+                </div>
+                <div class="row header__contacts justify-content-end">
+                    <div class="col-2 p-0">
+                        <div class="header__contacts-phone">
+                            <img class="ml-4" src="https://www.velcom.by/css/images/velcom-sm.gif" alt="velcom">
+                        </div>
+                        <div class="header__contacts-phone">
+                            <img class="ml-4" src="https://golderi.net/images/mts_icon.png" alt="mts">
+                        </div>
+                    </div>
+                    <div class="col-4 p-0 ml-3 header__contacts-phone-txt">(029)</div>
+                    <div class="col-4 p-0">
+                        <div class="header__contacts-phone header__contacts-phone-txt2 ">222 22 22</div>
+                        <div class="header__contacts-phone header__contacts-phone-txt2 ">711 11 11</div>
+                    </div>
+                    <div class="col-1 p-0">
+                        <div class="header__contacts-phone">
+                            <img class="ml-0" src="http://levitbooks.com/wp-content/uploads/2018/02/viber-icon-3-278x300.png" alt="mts">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 
-<main></main>
+<main>
+    <div class="container">
+        <div class="row content mt-4 p-0">
+            <div class="col-9 p-0 mr-4 position-relative overflow-hidden content__main">
+                <img class="content__main-img" src="./src/img/chester.png" alt="chester">
+                <div class="position-absolute content__main-border row mr-0 ml-0 justify-content-end">
+                    <div class="col-6 row">
+                        <div class="mt-5 align-self-center mr-auto ml-auto" >
+                            <p class="text-right content__main__text-p">Безупречное качество за короткие сроки</p>
+                            <p class="text-right content__main__text-p">Любой дизайн с максимальной комплектацией</p>
+                            <p class="text-right content__main__text-p">Только натуральные материалы - сосна, береза, дуб</p>
+                        </div>
+                        <div class="align-self-end ml-auto mr-auto mb-5">
+                            <h3 class=" text-right content__main__text-h3">МЯГКАЯ МЕБЕЛЬ</h3>
+                            <h3 class="text-right content__main__text-h3">на заказ за 10 дней</h3>
+                            <button type="button" class="position-relative float-right btn btn-danger mt-2 content__main-btn">СДЕЛАТЬ ЗАКАЗ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 p-0  row">
+                <div class="col-12 p-0 mb-1  content__second1">
+                    <div class="mt-5 ml-5 content__second1-txt">
+                        <p>БЕСПЛАТНО:</p>
+                        <ul class="">
+                            <li>Вызов замерщика</li>
+                            <li>Доставка мебели</li>
+                            <li>Сборка мебели</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 p-0 mt-1 d-flex content__second2">
+                    <div class="m-auto w-75 h-75">
+                        <div class="h-50 w-100 d-flex">
+                            <object class="m-auto pl-3 pr-3" type="image/svg+xml" data="./src/img/Path_489.svg">Your browser does not support SVGs</object>
+                            <p class="m-auto content__second2-txt">Никакой предоплаты</p>
+                        </div>
+                        <div class="h-50 w-100 d-flex">
+                            <object class="m-auto pl-3 pr-3" type="image/svg+xml" data="./src/img/10-layers.svg">Your browser does not support SVGs</object>
+                            <p class="m-auto content__second2-txt">Гарантия качества</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</main>
 <footer></footer>
 
 
