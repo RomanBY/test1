@@ -5,46 +5,4 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.header__search__drdw{
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-left: none;
-  color: $text_color3;
-  &:before{
-    content: "";
-    width: 24px;
-    height: 1px;
-    background: $text_color3;
-    position: absolute;
-    transform: rotate(90deg);
-    left: -12px;
-    top: 17px;
-  }
-}
-.header__search{
-  border-right: none;
-}
-.header__search__text-clr{
-  color: $text_color3;
-}
-.header__search__icons{
-  width: 17%;
-  & div{cursor: pointer;}
-}
-.header__contacts{
-  min-height: $header_height/2;
-}
-.header__contacts-phone{
-  min-height: $header_height/4;
-  img{height: 20px; width: 20px; margin-left: 15px;}
-}
-.header__contacts-phone-txt{
-  color: $text_color3;
-  font-size: 36px;
-}
-.header__contacts-phone-txt2{
-  color: $text_color2;
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
+

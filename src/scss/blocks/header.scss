@@ -3,7 +3,7 @@
   min-height: $header_height;
 }
 .header__block__btn1{
-  min-width: 270px;
+  min-width: 90%;
   min-height: 38px;
 }
 .header__block__btn1-line{
@@ -26,7 +26,7 @@
 }*/
 .header__block__btn1-arw{
   height: 24px;
-  width: 15%;
+  width: 39px;
 }
 .header__block__btn1-arw:before,
 .header__block__btn1-arw:after{
@@ -47,3 +47,73 @@
   right: 5px;
   transform: rotate(-45deg);
 }
+.btn_active .header__block__btn1-arw:before{
+  right: 8px;
+  bottom: 8px;
+  transform: rotate(-45deg);
+}
+.btn_active .header__block__btn1-arw:after{
+  bottom: 8px;
+  right: 8px;
+  transform: rotate(45deg);
+}
+.submenu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 5;
+  width: 100%;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  transition: .5s ease-in-out;
+  height: 200px;
+}
+.submenu_active {
+  opacity: 1;
+  transform: scaleY(1);
+}
+.header__search__drdw{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-left: none;
+  color: $text_color3;
+  &:before{
+    content: "";
+    width: 24px;
+    height: 1px;
+    background: $text_color3;
+    position: absolute;
+    transform: rotate(90deg);
+    left: -12px;
+    top: 17px;
+  }
+}
+.header__search{
+  border-right: none;
+}
+.header__search__text-clr{
+  color: $text_color3;
+}
+.header__search__icons{
+  width: 17%;
+  & div{cursor: pointer;}
+}
+.header__contacts{
+  min-height: $header_height/2;
+}
+.header__contacts-phone{
+  min-height: $header_height/4;
+  img{height: 20px; width: 20px;}
+}
+.header__contacts-phone-txt{
+  color: $text_color3;
+  font-size: 36px;
+}
+.header__contacts-phone-txt2{
+  color: $text_color2;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+

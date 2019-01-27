@@ -2,6 +2,9 @@
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/content";
+@import "blocks/gallery";
+@import "blocks/media_screen";
+@import "blocks/mobile_menu";
 
 
 body{
@@ -10,4 +13,12 @@ body{
   color: $text_color1;
   font-family: "Open Sans";
 }
+footer{
+  height: 200px;
+}
+.container{
+  overflow: hidden;
+  padding: 0;
+}
+
 

@@ -5,6 +5,9 @@ min-height: $content_height;
   overflow: hidden;
   img{transition: 200ms; height: 100%}
   &:hover .content__main-img{transform: scale(1.1)}
+  &:hover .content__main-btn{animation: scale-btn 2s infinite ease}
+  &:hover .content__main-btn{-webkit-animation: scale-btn 2s infinite ease}
+  &:hover .content__main-btn{-moz-animation: scale-btn 2s infinite ease}
 }
 .content__main-border{
   width: 100%;
@@ -15,9 +18,9 @@ min-height: $content_height;
   outline-offset: -12px;
 }
 .content__main__text-p{
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 11px;
+  line-height: 17px;
   color: $border-color1;
 }
 .content__main__text-h3{
@@ -61,4 +64,18 @@ min-height: $content_height;
   line-height: 22px;
   color: $text_color2;
 }
-
+@keyframes scale-btn {
+  0%{transform: scale(1.0)}
+  50%{transform: scale(1.1)}
+  100%{transform: scale(1.0)}
+}
+@-webkit-keyframes scale-btn {
+  0%{transform: scale(1.0)}
+  50%{transform: scale(1.1)}
+  100%{transform: scale(1.0)}
+}
+@-moz-keyframes scale-btn {
+  0%{transform: scale(1.0)}
+  50%{transform: scale(1.1)}
+  100%{transform: scale(1.0)}
+}
