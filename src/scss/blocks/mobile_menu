@@ -167,8 +167,8 @@ a{
 }
 
 .js-menu_activated .hamburger:before{
-  width: 100vh;
-  height: 100vh;
+  width: 200vh;
+  height: 200vh;
   transform: translate3d(-50vh, -50vh, 0) scale(5);
 }
 
