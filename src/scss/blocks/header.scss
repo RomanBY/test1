@@ -1,3 +1,4 @@
+
 .header,
 .header__block{
   min-height: $header_height;
@@ -116,4 +117,14 @@
   font-weight: 600;
   letter-spacing: 1px;
 }
+.btn,
+.form-control{
+  box-shadow: none;
+}
+a, a:hover, a:focus, a:active, button, button:focus, button:active,.form-control:focus, .form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
 
